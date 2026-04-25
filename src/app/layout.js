@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       data-theme="light"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased bg-[#f3f3f3]`}
     >
       <body className={`${poppins.className} min-h-full flex flex-col`}>
         {children}
